@@ -1,0 +1,10 @@
+title: "Simone Kettle Francis | AI Evaluation Portfolio"
+description: "Original demonstrations of AI evaluation, prompt design, and human judgment."
+url: "https://simonekettlefrancis.github.io"
+baseurl: "/ai-evaluation-portfolio"
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+exclude:
+  - README.md
