@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }} · Simone Kettle Francis</title>
+  <meta name="description" content="{{ page.summary | default: site.description | escape }}">
+  <meta name="theme-color" content="#132f36">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}"><span class="monogram">SK</span><span>Simone Kettle Francis<span class="wordmark-sub">AI EVALUATION &amp; PROMPT DESIGN</span></span></a>
+    <nav aria-label="Main navigation"><a href="{{ '/' | relative_url }}#work">Selected work</a><a href="{{ '/' | relative_url }}#approach">Approach</a><a href="https://github.com/SimoneKettleFrancis/ai-evaluation-portfolio">GitHub ↗</a></nav>
+  </header>
+  {{ content }}
+  <footer class="wrap footer"><span>Simone Kettle Francis<br><span class="muted">Thoughtful evaluation. Clearly documented.</span></span><span>All featured studies are synthetic demonstrations.<br><a href="https://github.com/SimoneKettleFrancis/ai-evaluation-portfolio/blob/main/MAINTAINING.md">How this portfolio grows ↗</a></span></footer>
+</body>
+</html>
