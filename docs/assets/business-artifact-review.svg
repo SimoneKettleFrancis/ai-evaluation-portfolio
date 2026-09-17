@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Business-artifact review</title><desc id="desc">Three connected artifacts: a presentation tells the story, a report supports the claims, and an operational handoff clarifies the action.</desc>
+<rect width="1200" height="630" fill="#edf2ef"/>
+<g font-family="Arial, sans-serif" fill="#172e36">
+<text x="58" y="76" font-size="20" fill="#326b60" font-weight="600">07 / BUSINESS-ARTIFACT REVIEW</text>
+<text x="58" y="144" font-family="Georgia, serif" font-size="49">Make the decision clear.</text>
+<text x="58" y="192" font-size="22" fill="#52665f">One narrative, checked across three different artifacts.</text>
+<rect x="58" y="250" width="342" height="246" rx="12" fill="#d7e8df"/>
+<rect x="428" y="250" width="342" height="246" rx="12" fill="#f5ecd9"/>
+<rect x="798" y="250" width="342" height="246" rx="12" fill="#dce6ea"/>
+<g stroke="#285f53" stroke-width="3" fill="none"><rect x="85" y="278" width="67" height="45" rx="3"/><path d="M118 323v17m-19 0h38M96 294h43m-43 10h30"/>
+<rect x="456" y="274" width="43" height="61" rx="3"/><path d="M466 289h24m-24 10h24m-24 10h24m-24 10h16"/>
+<rect x="826" y="278" width="64" height="51" rx="3"/><path d="m836 289 4 4 7-8m-11 18 4 4 7-8m9-10h23m-23 14h23m-23 14h23"/></g>
+<text x="85" y="382" font-size="27" font-weight="600">Presentation</text><text x="85" y="424" font-size="22">Is the story coherent?</text><text x="85" y="459" font-size="18" fill="#52665f">Structure · clarity · decision</text>
+<text x="456" y="382" font-size="27" font-weight="600">Supporting report</text><text x="456" y="424" font-size="22">Do the claims hold up?</text><text x="456" y="459" font-size="18" fill="#52665f">Evidence · detail · limitations</text>
+<text x="826" y="382" font-size="27" font-weight="600">Operational handoff</text><text x="826" y="424" font-size="22">Can someone act on it?</text><text x="826" y="459" font-size="18" fill="#52665f">Owner · measures · next step</text>
+<text x="405" y="386" font-size="34" fill="#52665f">›</text><text x="775" y="386" font-size="34" fill="#52665f">›</text>
+<text x="58" y="563" font-size="18" fill="#52665f">SYNTHETIC EXCERPTS / ORIGINAL REVIEW / NO CLIENT DOCUMENTS</text>
+</g></svg>
