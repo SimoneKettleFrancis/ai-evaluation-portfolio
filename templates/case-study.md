@@ -3,7 +3,7 @@ layout: case
 title: "A specific question your study answers"
 category: "Response evaluation"
 summary: "A one-sentence description of the task and the judgment demonstrated."
-number: "07"
+number: "08"
 image: "/assets/response-evaluation.svg"
 image_alt: "Evaluation workflow: read the evidence, score independently, explain the decision."
 ---
