@@ -27,6 +27,10 @@ A visual collection of original demonstrations: how to inspect an answer, explai
 <td width="50%" valign="top"><a href="docs/studies/preference-ranking.md"><img src="docs/assets/preference-ranking.svg" alt="Preference ranking workflow" width="100%"></a><h3>06 · Preference ranking</h3><p>Compare two replies using earlier constraints and write a concise, evidence-based preference justification.</p><a href="docs/studies/preference-ranking.md">Read the demonstration →</a></td>
 </tr></table>
 
+<table><tr>
+<td valign="top"><a href="docs/studies/business-artifact-review.md"><img src="docs/assets/business-artifact-review.svg" alt="Business-artifact review: presentation, supporting report, and operational handoff" width="100%"></a><h3>07 · Business-artifact review</h3><p>Review presentation storytelling, report evidence, and operational handoffs as one connected business narrative.</p><a href="docs/studies/business-artifact-review.md">Read the demonstration →</a></td>
+</tr></table>
+
 ## What connects the work
 
 - **Evidence before confidence:** distinguish supported facts from plausible invention.

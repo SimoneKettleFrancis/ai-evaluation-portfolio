@@ -23,7 +23,7 @@ Saving to `main` publishes the revised content. Use a separate branch and a pull
 1. Open [`templates/case-study.md`](templates/case-study.md), view the raw text, and copy it.
 2. In [`docs/studies/`](docs/studies/), select **Add file → Create new file**.
 3. Use a descriptive filename such as `source-verification.md` and paste the template.
-4. Replace the title, category, summary, and study text. Set `number` to the next two-digit number, such as `"07"`.
+4. Replace the title, category, summary, and study text. Set `number` to the next two-digit number, such as `"08"`.
 5. Keep `layout: case`. This makes the website recognize it as a gallery entry.
 6. Preview and commit the file. The website gallery will include it automatically after the next successful build.
 
