@@ -2,15 +2,15 @@
 
 # AI Evaluation Portfolio
 
-**Simone Kettle Francis · AI evaluation · Prompt design · Human judgment**
+**Simone Kettle Francis · AI evaluation · Human-in-the-loop quality · Human judgment**
 
-A visual collection of original demonstrations: how to inspect an answer, explain a rating, refine a prompt, and recognize what the evidence does not support.
+My AI evaluation portfolio connects experience in human-in-the-loop quality with independent synthetic examples of the decisions involved. Project pages distinguish work context from fictional demonstrations.
 
 **[Explore the visual portfolio ↗](https://simonekettlefrancis.github.io/ai-evaluation-portfolio/)** · [How to add a study](MAINTAINING.md) · [Case-study template](templates/case-study.md)
 
 > **About these examples:** Every featured case study uses synthetic scenarios, authored responses, original visuals, and fictional data. They demonstrate evaluation methods; they are not client deliverables, employer training materials, production outputs, or measured model-performance claims.
 
-## Selected demonstrations
+## Selected projects and synthetic examples
 
 <table><tr>
 <td width="50%" valign="top"><a href="docs/studies/prompt-refinement.md"><img src="docs/assets/prompt-refinement.svg" alt="Prompt refinement workflow" width="100%"></a><h3>01 · Prompt refinement</h3><p>Turn an open-ended request into a testable set of instructions, then check the answer against each constraint.</p><a href="docs/studies/prompt-refinement.md">Read the demonstration →</a></td>
@@ -30,6 +30,12 @@ A visual collection of original demonstrations: how to inspect an answer, explai
 <table><tr>
 <td valign="top"><a href="docs/studies/business-artifact-review.md"><img src="docs/assets/business-artifact-review.svg" alt="Business-artifact review: presentation, supporting report, and operational handoff" width="100%"></a><h3>07 · Business-artifact review</h3><p>Review presentation storytelling, report evidence, and operational handoffs as one connected business narrative.</p><a href="docs/studies/business-artifact-review.md">Read the demonstration →</a></td>
 </tr></table>
+
+### 08 · Robotics Video Annotation & Physical-Agent Evaluation
+
+Multi-camera robot-behavior review, precise event ranges, and session-level quality assessment. Includes an original synthetic annotation workspace.
+
+[View the project and synthetic example →](docs/studies/robotics-video-annotation.md)
 
 ## What connects the work
 
