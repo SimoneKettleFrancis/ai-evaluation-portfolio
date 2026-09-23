@@ -3,8 +3,9 @@ layout: default
 title: "AI evaluation, made visible"
 ---
 <main id="main">
+  <div class="wrap" style="padding-top:28px"><img src="{{ '/assets/simone-building-whats-next.png' | relative_url }}" alt="Simone Kettle Francis — Building What’s Next: people, processes, possibility; talent and career operations, business and project operations, and human-in-the-loop AI." width="2056" height="765" style="display:block;width:100%;height:auto;border-radius:6px"></div>
   <section class="hero wrap">
-    <div class="hero-copy"><p class="eyebrow">THE PORTFOLIO OF SIMONE KETTLE FRANCIS</p><h1>My work in<br><em>AI evaluation.</em></h1><p class="intro">Since 2023, I’ve worked in AI evaluation and human-in-the-loop quality. This portfolio connects that experience with independently created examples of the review, classification, and judgment involved—from model responses and business artifacts to robot behavior.</p><a class="button" href="#work">Explore the portfolio <span aria-hidden="true">↘</span></a></div>
+    <div class="hero-copy"><p class="eyebrow">THE PORTFOLIO OF SIMONE KETTLE FRANCIS</p><h1>My work in<br><em>AI evaluation.</em></h1><p class="intro">My work connects human-in-the-loop AI quality with a background in business and people operations. Since 2023, I’ve worked in AI evaluation. This portfolio connects that experience with independently created examples of the review, classification, and judgment involved—from model responses and business artifacts to robot behavior.</p><a class="button" href="#work">Explore the portfolio <span aria-hidden="true">↘</span></a></div>
     <div class="hero-art" role="img" aria-label="Evaluation process: prompt, evidence, judgment, refinement"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span><div class="art-label art-one">01 / PROMPT</div><div class="art-label art-two">02 / EVIDENCE</div><div class="art-center">Human<br><em>judgment.</em></div><div class="art-label art-three">03 / REFINE</div><p class="art-caption">LOOK CLOSER. ASK BETTER. CHECK AGAIN.</p></div>
   </section>
   <div class="wrap disclosure"><span class="dot"></span><p><strong>Real experience. Synthetic examples.</strong> The experience descriptions explain my work; the examples make the evaluation process visible using fictional materials and original visuals. They are not original client assignments, client deliverables, or production benchmarks.</p></div>
@@ -12,7 +13,11 @@ title: "AI evaluation, made visible"
     <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2>Work, context, and judgment.</h2></div><p>Concrete tasks. Visible decisions.<br>Room to keep learning.</p></div>
     <div class="gallery">
     {% assign studies = site.pages | where: 'layout', 'case' | sort: 'number' %}
-    {% for study in studies %}
+    {% assign robotics = studies | where: 'number', '08' %}
+    {% assign artifacts = studies | where: 'number', '07' %}
+    {% assign remaining = studies | where_exp: 'study', "study.number != '08' and study.number != '07'" %}
+    {% assign ordered_studies = robotics | concat: artifacts | concat: remaining %}
+    {% for study in ordered_studies %}
       <a class="study-card" href="{{ study.url | relative_url }}"><div class="card-image"><img src="{{ study.image | relative_url }}" alt="{{ study.image_alt | escape }}" loading="lazy" width="1200" height="630"></div><div class="card-copy"><p class="eyebrow">{{ study.number | escape }} / {{ study.category | escape }}</p><h3>{{ study.title | escape }}</h3><p>{{ study.summary | escape }}</p><span class="card-link">View project &amp; example <span aria-hidden="true">↗</span></span></div></a>
     {% endfor %}
     </div>
