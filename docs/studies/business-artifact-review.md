@@ -84,4 +84,4 @@ A revised artifact would include both complete totals, distinguish known facts f
 
 This work sits at the intersection of **human-in-the-loop AI quality and business operations**: understanding what someone needs a deliverable to accomplish, checking whether the AI output actually supports that purpose, and making a defensible usability judgment.
 
-For an interview, the useful distinction is: **I evaluated the AI-produced artifact against the task and applicable criteria; I was not simply proofreading a business document or creating the deliverable myself.**
+**My contribution was the evaluation:** assessing the AI-produced artifact against its task and applicable criteria, then explaining whether it was fit for its intended use.
