@@ -1,111 +1,87 @@
 ---
 layout: case
-title: "Business Artifact Review: Storytelling, Evidence & Clarity"
-category: "Business-artifact review"
-summary: "Review presentation storytelling, report evidence, and operational handoffs as one connected business narrative."
+title: "AI-Generated Business Artifact Evaluation"
+category: "Human-in-the-loop artifact evaluation"
+summary: "Evaluated AI-generated documents against their assigned tasks, quality criteria, and practical usability—from simple requests to complex business deliverables."
 number: "07"
 image: "/assets/business-artifact-review.svg"
-image_alt: "Business-artifact review connects a presentation, supporting report, and operational handoff to one clear decision."
+image_alt: "Task brief, fictional AI-output mockup, and evaluator findings showing why an attractive artifact can still be unusable."
 ---
 
-> **Synthetic demonstration.** This example illustrates the business-artifact review work described by Simone Kettle Francis. The excerpts, organization, figures, and feedback below were created for this portfolio. No original project files, client documents, employer criteria, or confidential results are reproduced.
+## My role
 
-## My work
+I evaluated business artifacts produced by AI in response to assigned tasks. Requests ranged from simple to complex, and the deliverables included documents, presentations, reports, and other business materials. My role was to judge how well the artifact fulfilled the request and whether its quality made it usable for its intended purpose.
 
-I reviewed business artifacts, including presentations, reports, and operational support materials, for storytelling, clarity, detail, and practical usefulness.
+Depending on the assignment, I worked from a rating system, evaluation instructions, or the task prompt. The key comparison was between **what the AI was asked to produce** and **what it actually delivered**. Reviewing an attractive document was only part of the work: the output also needed to meet the requirements and be useful to the person receiving it.
 
-## Judgment involved
+## Tools and working context
 
-I considered whether the narrative was clear, whether the supporting detail justified the claims, and whether the document helped its audience understand what to do next.
+I worked in **Feather** for this artifact-evaluation work, reviewing AI-produced deliverables alongside the task and evaluation criteria supplied for the assignment. The portfolio illustration below is independently created and does not reproduce Feather’s interface.
 
-## Synthetic example
+## What I had to judge
 
-The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
+- **Task fulfillment:** Did the artifact answer the assigned request, including its constraints and required details?
+- **Quality:** Was the content clear, coherent, appropriately detailed, and supported by the information available?
+- **Presentation:** Did the organization, formatting, and visual structure help someone understand and use it?
+- **Usability:** Could the intended audience act on the deliverable, or would missing information and errors require substantial rework?
+- **Rating and rationale:** How did the observed strengths and weaknesses map to the criteria supplied for that assignment?
 
-![Presentation, report, and operational handoff connected by a review process](../assets/business-artifact-review.svg)
+These describe the work at a general level; they are not a reproduction of a project rubric or a claim that every assignment used the same scoring system.
 
-## The question
+## How the evaluation worked
 
-Do the presentation, supporting report, and operational notes tell a consistent story that helps a reader make a decision and act on it?
+1. **Read the task and evaluation instructions.** Establish the intended audience, output format, required content, constraints, and any applicable rating criteria.
+2. **Inspect the AI-generated artifact.** Compare the delivered document with the original request, including its presentation and practical usefulness.
+3. **Identify strengths and gaps.** Distinguish minor polish issues from omissions or errors that undermine the task.
+4. **Apply the assignment’s criteria.** Use the provided rating method where one is supplied; avoid substituting a personal preference for the stated requirements.
+5. **Explain the judgment.** Connect the assessment to observable evidence in the artifact and its effect on usability.
 
-## Review scope
+## Visual example: attractive does not always mean usable
 
-This demonstration examines three short, fictional excerpts from a business review packet for **Harbor Desk**, an invented support team:
+> **Independent synthetic example.** The brief, document mockup, destinations, figures, and evaluation below were created for this portfolio. They illustrate my evaluation approach and are not client artifacts, project screenshots, calibration material, or confidential criteria. The mockup represents a possible AI-generated output; it is not evidence of a recorded model run.
 
-- **Presentation excerpt:** the story a decision-maker sees first.
-- **Report excerpt:** the details that should support the story.
-- **Operations handoff:** the instructions that should make the decision actionable.
+![Task brief, document mockup, and evaluator findings](../assets/business-artifact-review.svg)
 
-These are text excerpts representing those artifact types, not a review of an actual PowerPoint or client report. A full file review would also check slide order, visual hierarchy, chart labels, page layout, and readability in the rendered document.
+### Fictional task given to an AI
 
-## The fictional artifacts
+Create a one-page destination comparison for an operations coordinator planning a two-day team retreat for six people. Use only the fictional facts below. Compare both options, calculate each total, recommend an option within a $2,400 budget, and identify missing information that should be checked before booking. Include a clear comparison table.
 
-### 1. Presentation excerpt
-
-> **Slide title:** Automation transformed support performance.
->
-> Tickets closed increased from 80 to 96. Efficiency improved by 20%. Roll out the workflow to every queue immediately.
-
-The headline sounds decisive, but it does not name the comparison period, define efficiency, or explain the basis for an immediate rollout.
-
-### 2. Supporting report excerpt
-
-| Measure | Week 1 | Week 2 |
+| Supplied fictional information | Cedar Cove | Maple Harbor |
 | --- | --- | --- |
-| Tickets closed | 80 | 96 |
-| Staff hours | 40 | 48 |
-| Tickets closed per staff hour | 2.0 | 2.0 |
-| Reopened tickets | Not recorded | Not recorded |
+| Lodging for the whole group | $1,200 | $1,400 |
+| Group transport | $300 | $200 |
+| Meals for the whole group | $600 | $600 |
+| Meeting space | Included | $400 |
+| Accessibility and booking availability | Not provided | Not provided |
 
-The team introduced a response template in Week 2. Staffing hours also increased. The report covers one queue over two weeks and contains no control group, case-complexity measure, or customer-quality assessment.
+### Output mockup under review
 
-### 3. Operations handoff excerpt
+The mockup recommends Maple Harbor, calls it “within budget” at $2,200, and labels it “accessible and ready to book.” Its table includes lodging, transport, and meals but leaves out the $400 meeting-space cost. Cedar Cove appears only as a short alternative with no complete cost comparison.
 
-> Deploy the template next week. The team will monitor performance and raise issues as needed.
+The presentation is clean and easy to scan. However, the recommendation fails important requirements of the assigned task.
 
-The handoff does not identify an owner, define what to monitor, set a review date, or explain how to respond to a problem.
+### My evaluation in this synthetic example
 
-## Findings and revision priorities
-
-| Review lens | Finding | Suggested revision |
+| Review question | Evidence in the mockup | Why it matters |
 | --- | --- | --- |
-| Storytelling | The deck jumps from an activity change to a broad success claim. | Use a sequence of observation, evidence, limitation, and decision request. |
-| Numerical accuracy | Ticket volume increased by 20%, but staff hours also increased by 20%. | Say throughput increased; do not describe unchanged tickets per hour as an efficiency gain. |
-| Evidence strength | The template's causal contribution is unknown. | Distinguish the observed change from possible explanations. |
-| Cross-document consistency | The deck's “efficiency” claim conflicts with the report's per-hour figures. | Use the same metric definitions and period labels across artifacts. |
-| Clarity and detail | The report omits quality measures and scope limitations from the summary. | Put scope, missing measures, and limitations beside the headline result. |
-| Operational usefulness | “The team” and “as needed” leave accountability unclear. | Name a responsible role, review cadence, and escalation path. |
+| Does it follow the task? | It does not provide a full comparison of both destinations. | The coordinator cannot compare alternatives on the requested basis. |
+| Are the calculations complete? | Maple Harbor is shown as $2,200, excluding $400 for meeting space. Its full total is $2,600. | The recommended option exceeds the $2,400 budget by $200. |
+| Are the claims supported? | “Accessible and ready to book” is asserted without supplied accessibility or availability information. | The reader could treat an unverified condition as established. |
+| Is it clear and well presented? | The headline and cost table are easy to scan. | This is a real strength, but does not resolve the substantive failures. |
+| Is it usable as delivered? | The recommendation depends on an incomplete total and unsupported claims. | It needs substantive correction before supporting a booking decision. |
 
-## Revised presentation story
+### Illustrative assessment
 
-1. **Observation:** Weekly closures rose from 80 to 96 while staff hours rose from 40 to 48.
-2. **Interpretation:** Tickets closed per staff hour stayed at 2.0; an efficiency improvement has not been established.
-3. **Limitation:** Two weeks in one queue cannot isolate the template's effect, and service-quality data is missing.
-4. **Decision request:** Approve a limited follow-up pilot with consistent reporting before considering wider use.
+**Needs substantive revision before use.** This is an original descriptive assessment for the portfolio, not a copied rating label or a score from a client assignment.
 
-### Revised executive summary
+> The artifact is visually clear but does not reliably fulfill the task. Its recommended destination costs $2,600 when the required meeting space is included, exceeding the budget. It also asserts accessibility and availability that were not provided. A complete comparison would show Cedar Cove at $2,100 and Maple Harbor at $2,600, identify the unknown booking conditions, and base the recommendation on those facts.
 
-> Harbor Desk closed 20% more tickets in Week 2, with 20% more staff hours. Productivity measured as tickets closed per staff hour remained unchanged at 2.0. The available evidence does not establish whether the new template improved efficiency or service quality. A limited follow-up pilot should collect comparable workload and quality data before any broader rollout decision.
+### What would change the judgment?
 
-## Revised operational handoff
+A revised artifact would include both complete totals, distinguish known facts from missing information, and recommend Cedar Cove **on the supplied cost information**, subject to checking accessibility and availability. Attractive styling alone would not change the assessment.
 
-The following is a proposed fictional plan, not a report of work already completed.
+## What this work demonstrates
 
-| Element | Proposed handoff detail |
-| --- | --- |
-| Scope | Continue the template in the same pilot queue for two more weeks. |
-| Accountable role | Support operations lead owns the pilot and the follow-up decision memo. |
-| Tracking | Record tickets closed, staff hours, reopen counts, and case complexity each week; define measures before the pilot starts. |
-| Quality review | A designated reviewer examines a consistent sample of replies each week using documented criteria. |
-| Escalation | Staff flag misleading or incorrect template replies to the operations lead for review and correction before further use. |
-| Decision checkpoint | At the end of Week 4, compare workload, productivity, and quality findings; document whether to revise, extend, or stop the pilot. |
+This work sits at the intersection of **human-in-the-loop AI quality and business operations**: understanding what someone needs a deliverable to accomplish, checking whether the AI output actually supports that purpose, and making a defensible usability judgment.
 
-## What this demonstrates
-
-Business-artifact review combines editorial judgment with evidence checking. A useful review checks whether the story is understandable, the details support the claims, the artifacts agree with one another, and the proposed next step is operationally clear.
-
-The numerical checks here are limited to the fictional values shown: `(96 − 80) / 80 = 20%`, `(48 − 40) / 40 = 20%`, and `80 / 40 = 96 / 48 = 2.0`. No real business improvement, client outcome, or completed project result is claimed.
-
-## Next test
-
-Review a complete synthetic slide deck and report together. Check whether headings make sense when read in sequence, charts state units and periods, caveats remain visible, and the final decision request matches the operational handoff.
+For an interview, the useful distinction is: **I evaluated the AI-produced artifact against the task and applicable criteria; I was not simply proofreading a business document or creating the deliverable myself.**
