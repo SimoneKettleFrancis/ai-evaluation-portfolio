@@ -2,10 +2,10 @@
 layout: default
 ---
 <main id="main" class="wrap case-main">
-  <a class="back" href="{{ '/' | relative_url }}#work">← All demonstrations</a>
+  <a class="back" href="{{ '/' | relative_url }}#work">← Portfolio projects</a>
   <p class="eyebrow">{{ page.number | escape }} / {{ page.category | escape }}</p>
   <h1>{{ page.title | escape }}</h1>
   <p class="intro">{{ page.summary | escape }}</p>
   <article class="prose">{{ content }}</article>
-  <div class="case-bottom"><a class="button" href="{{ '/' | relative_url }}#work">Explore another study</a><a href="https://github.com/SimoneKettleFrancis/ai-evaluation-portfolio/blob/main/docs/{{ page.path }}">Read the source ↗</a></div>
+  <div class="case-bottom"><a class="button" href="{{ '/' | relative_url }}#work">Explore another project</a><a href="https://github.com/SimoneKettleFrancis/ai-evaluation-portfolio/blob/main/docs/{{ page.path }}">Read the source ↗</a></div>
 </main>
