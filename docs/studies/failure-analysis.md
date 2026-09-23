@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "Find the failure before writing the fix"
+title: "AI Failure Analysis & Error Classification"
 category: "Failure analysis"
 summary: "Separate an unsupported inference from a formatting error, then define a focused regression check."
 number: "03"
@@ -9,6 +9,18 @@ image_alt: "Failure analysis: Reproduce the issue; Name the failure; Define a re
 ---
 
 > **Synthetic demonstration.** All scenarios, model responses, data, and evaluation decisions on this page are illustrative. No client material or production results are reproduced.
+
+## Evaluation focus
+
+Recognizing when a response goes beyond the evidence, distinguishing factual errors from formatting issues, and documenting the reason for a classification.
+
+## Judgment illustrated
+
+A fluent answer can satisfy the requested format and still be unsupported. The example below shows how to separate these checks and explain a correction.
+
+## Synthetic example
+
+The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
 
 ![Failure analysis workflow](../assets/failure-analysis.svg)
 

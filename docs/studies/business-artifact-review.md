@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "Turn business artifacts into a clear decision"
+title: "Business Artifact Review: Storytelling, Evidence & Clarity"
 category: "Business-artifact review"
 summary: "Review presentation storytelling, report evidence, and operational handoffs as one connected business narrative."
 number: "07"
@@ -9,6 +9,18 @@ image_alt: "Business-artifact review connects a presentation, supporting report,
 ---
 
 > **Synthetic demonstration.** This example illustrates the business-artifact review work described by Simone Kettle Francis. The excerpts, organization, figures, and feedback below were created for this portfolio. No original project files, client documents, employer criteria, or confidential results are reproduced.
+
+## My work
+
+I reviewed business artifacts, including presentations, reports, and operational support materials, for storytelling, clarity, detail, and practical usefulness.
+
+## Judgment involved
+
+I considered whether the narrative was clear, whether the supporting detail justified the claims, and whether the document helped its audience understand what to do next.
+
+## Synthetic example
+
+The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
 
 ![Presentation, report, and operational handoff connected by a review process](../assets/business-artifact-review.svg)
 

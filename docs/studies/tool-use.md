@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "Keep the recommendation grounded in tool data"
+title: "Tool-Use & Workflow Evaluation"
 category: "Tool-use evaluation"
 summary: "Evaluate a fictional travel search against budget, timing, and explicit missing information."
 number: "04"
@@ -9,6 +9,18 @@ image_alt: "Tool-use evaluation: Read the request; Compare tool results; Preserv
 ---
 
 > **Synthetic demonstration.** All scenarios, model responses, data, and evaluation decisions on this page are illustrative. No client material or production results are reproduced.
+
+## Evaluation focus
+
+Workflow evaluation involves comparing a requested outcome with tool results, checking constraints, and identifying gaps before a recommendation is accepted.
+
+## Judgment illustrated
+
+The example distinguishes a supported recommendation from one that assumes missing availability, timing, or costs.
+
+## Synthetic example
+
+The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
 
 ![Tool-use evaluation workflow](../assets/tool-use.svg)
 

@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "Evaluate the answer, explain the decision"
+title: "AI Response Quality Evaluation"
 category: "Response evaluation"
 summary: "Use a small, original rubric to distinguish factual support, instruction following, and clarity."
 number: "02"
@@ -9,6 +9,18 @@ image_alt: "Response evaluation: Read the evidence; Score independently; Explain
 ---
 
 > **Synthetic demonstration.** All scenarios, model responses, data, and evaluation decisions on this page are illustrative. No client material or production results are reproduced.
+
+## Evaluation focus
+
+Response evaluation involves checking factual support, instruction following, and clarity, then explaining the rating with specific evidence.
+
+## Judgment illustrated
+
+The example keeps quality dimensions separate: a clear response can still be unsupported, and a correct fact can still fail the request.
+
+## Synthetic example
+
+The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
 
 ![Response evaluation workflow](../assets/response-evaluation.svg)
 

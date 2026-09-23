@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "From vague request to reliable answer"
+title: "Prompt & Instruction Refinement"
 category: "Prompt design"
 summary: "Turn an open-ended request into a testable set of instructions, then check the answer against each constraint."
 number: "01"
@@ -9,6 +9,18 @@ image_alt: "Prompt refinement: Define the task; Make constraints explicit; Check
 ---
 
 > **Synthetic demonstration.** All scenarios, model responses, data, and evaluation decisions on this page are illustrative. No client material or production results are reproduced.
+
+## Evaluation focus
+
+Prompt and instruction refinement involves translating a request into explicit requirements, checking constraints, and deciding whether a response actually meets the intended task.
+
+## Judgment illustrated
+
+The example separates an underspecified request from a testable instruction set. The key judgment is which details must be explicit without inventing requirements.
+
+## Synthetic example
+
+The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
 
 ![Prompt refinement workflow](../assets/prompt-refinement.svg)
 

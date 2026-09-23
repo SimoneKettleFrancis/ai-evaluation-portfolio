@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "Rank responses against the whole conversation"
+title: "Response Comparison & Preference Ranking"
 category: "Preference ranking"
 summary: "Compare two replies using earlier constraints and write a concise, evidence-based preference justification."
 number: "06"
@@ -9,6 +9,18 @@ image_alt: "Preference ranking: Recover the context; Compare both answers; Justi
 ---
 
 > **Synthetic demonstration.** All scenarios, model responses, data, and evaluation decisions on this page are illustrative. No client material or production results are reproduced.
+
+## Evaluation focus
+
+Preference ranking involves comparing responses against the full conversation and documenting which response better meets the user’s constraints.
+
+## Judgment illustrated
+
+The example makes the reason for a preference explicit. Fluency alone is insufficient when earlier instructions or relevant details are missed.
+
+## Synthetic example
+
+The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
 
 ![Preference ranking workflow](../assets/preference-ranking.svg)
 

@@ -1,6 +1,6 @@
 ---
 layout: case
-title: "Read what the visual actually supports"
+title: "Visual Evidence & Multimodal Evaluation"
 category: "Multimodal evaluation"
 summary: "Use an original chart to separate correct extraction from an unsupported causal explanation."
 number: "05"
@@ -9,6 +9,18 @@ image_alt: "Image understanding: Extract the values; Check the calculation; Limi
 ---
 
 > **Synthetic demonstration.** All scenarios, model responses, data, and evaluation decisions on this page are illustrative. No client material or production results are reproduced.
+
+## Evaluation focus
+
+Multimodal evaluation involves reading visual evidence accurately, checking extracted values, and assessing whether the explanation stays within what the image supports.
+
+## Judgment illustrated
+
+The example separates observation and calculation from causal interpretation. Correctly reading a chart does not justify an unsupported explanation for its pattern.
+
+## Synthetic example
+
+The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
 
 ![Image understanding workflow](../assets/image-understanding.svg)
 
