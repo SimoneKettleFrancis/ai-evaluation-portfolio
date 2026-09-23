@@ -15,7 +15,7 @@ title: "AI evaluation, made visible"
     {% assign studies = site.pages | where: 'layout', 'case' | sort: 'number' %}
     {% assign robotics = studies | where: 'number', '08' %}
     {% assign artifacts = studies | where: 'number', '07' %}
-    {% assign remaining = studies | where_exp: 'study', "study.number != '08' and study.number != '07'" %}
+    {% assign remaining = studies | where_exp: 'study', "study.number != '08'" | where_exp: 'study', "study.number != '07'" %}
     {% assign ordered_studies = robotics | concat: artifacts | concat: remaining %}
     {% for study in ordered_studies %}
       <a class="study-card" href="{{ study.url | relative_url }}"><div class="card-image"><img src="{{ study.image | relative_url }}" alt="{{ study.image_alt | escape }}" loading="lazy" width="1200" height="630"></div><div class="card-copy"><p class="eyebrow">{{ study.number | escape }} / {{ study.category | escape }}</p><h3>{{ study.title | escape }}</h3><p>{{ study.summary | escape }}</p><span class="card-link">View project &amp; example <span aria-hidden="true">↗</span></span></div></a>
