@@ -1,26 +1,29 @@
 ---
 layout: case
-title: "Prompt & Instruction Refinement"
-category: "Prompt design"
-summary: "Turn an open-ended request into a testable set of instructions, then check the answer against each constraint."
+title: "Prompt, Instruction & Response Refinement"
+category: "Prompt and response review"
+summary: "Reviewed task instructions and model responses, identified quality gaps, and refined prompts or response wording to better meet the request."
 number: "01"
 image: "/assets/prompt-refinement.svg"
 image_alt: "Prompt refinement: Define the task; Make constraints explicit; Check every requirement."
 ---
 
-> **Synthetic demonstration.** All scenarios, model responses, data, and evaluation decisions on this page are illustrative. No client material or production results are reproduced.
+## My role
 
-## Evaluation focus
+My work involved reviewing instructions and model outputs, identifying where an answer missed the task, and refining wording or correcting the response. The review included factual support, tone, formatting, and overall quality—not just writing a more detailed prompt.
 
-Prompt and instruction refinement involves translating a request into explicit requirements, checking constraints, and deciding whether a response actually meets the intended task.
+### What the task involved
 
-## Judgment illustrated
+- Read the task and supplied requirements before judging the output.
+- Check the response for unsupported claims, missed constraints, tone, and formatting problems.
+- Refine the prompt when clarification was needed, or improve the response when the answer itself needed correction.
+- Explain the changes in terms of the task and the observed defects.
 
-The example separates an underspecified request from a testable instruction set. The key judgment is which details must be explicit without inventing requirements.
+The contribution was human review and refinement. Prompt revision and response correction are related activities, but they are not the same deliverable.
 
-## Synthetic example
+## Independent example of the task
 
-The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
+> **Real work context; synthetic demonstration.** The role description summarizes my evaluation work. The brief, responses, visuals, and judgments below were independently created to illustrate this type of task. They are not original assignments, client materials, proprietary criteria, or measured production results.
 
 ![Prompt refinement workflow](../assets/prompt-refinement.svg)
 
@@ -54,7 +57,10 @@ The response invents instructor credentials and a registration route, uses the w
 >
 > Curious about drawing? Join a free beginner sketching workshop at Harbor Studio on Saturday, October 10, 2026, from 2–3 p.m. No experience is needed, and materials are provided. Come explore a new skill in a relaxed session for adults.
 
-## Evaluation
+## Review and correction record
+
+The initial answer needs factual correction regardless of whether the prompt is rewritten. I would remove the invented credentials and registration route, restore the supplied day and materials policy, and preserve a welcoming tone. The revised answer below is an authored correction; it is not proof that changing a prompt caused a model to improve. The title, paragraph, and word-limit checks apply to the refined prompt.
+
 
 | Check | Initial response | Revised response |
 | --- | --- | --- |

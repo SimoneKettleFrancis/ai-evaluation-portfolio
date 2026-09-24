@@ -1,26 +1,29 @@
 ---
 layout: case
-title: "AI Response Quality Evaluation"
-category: "Response evaluation"
-summary: "Use a small, original rubric to distinguish factual support, instruction following, and clarity."
+title: "AI Response Quality & Factual Review"
+category: "Response quality review"
+summary: "Assessed model responses across separate quality dimensions, checked claims and source support, and explained ratings with specific evidence."
 number: "02"
 image: "/assets/response-evaluation.svg"
 image_alt: "Response evaluation: Read the evidence; Score independently; Explain the decision."
 ---
 
-> **Synthetic demonstration.** All scenarios, model responses, data, and evaluation decisions on this page are illustrative. No client material or production results are reproduced.
+## My role
 
-## Evaluation focus
+I reviewed model responses against the task and its evaluation instructions. This included separating factual accuracy from instruction following and presentation, checking whether claims were supported, and documenting the reasons for a rating.
 
-Response evaluation involves checking factual support, instruction following, and clarity, then explaining the rating with specific evidence.
+### What the task involved
 
-## Judgment illustrated
+- Check whether the task could be evaluated under the supplied instructions before assigning a rating.
+- Identify the answer’s central claims and supporting details; check available evidence and citations where provided.
+- Judge quality dimensions separately so a readable answer did not receive credit for unsupported content.
+- Record a rating and a concise rationale tied to observable problems or strengths.
 
-The example keeps quality dimensions separate: a clear response can still be unsupported, and a correct fact can still fail the request.
+I applied the criteria supplied for the assignment. The small scoring table below is an independently created illustration, not a rubric I developed for a client.
 
-## Synthetic example
+## Independent example of the task
 
-The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
+> **Real work context; synthetic demonstration.** The role description summarizes my evaluation work. The brief, responses, visuals, and judgments below were independently created to illustrate this type of task. They are not original assignments, client materials, proprietary criteria, or measured production results.
 
 ![Response evaluation workflow](../assets/response-evaluation.svg)
 
@@ -43,6 +46,10 @@ The fictional Cedar Library is open Monday–Friday, 9 a.m.–6 p.m., and Saturd
 
 > - The library is open all weekend, 10 a.m.–2 p.m.
 > - Cards are free for everyone, with free parking and no late fees.
+
+## Evidence check before rating
+
+The fictional source and request are complete enough for this exercise. B’s central claim about weekend opening contradicts the Sunday closure, and its card-eligibility claim removes the resident restriction. Parking and late-fee statements add unsupported details. Neither answer provides citations, so citation correctness is not scored here; in a task with citations, I would check whether each cited source actually supported the associated claim.
 
 ## Original demonstration rubric
 

@@ -1,26 +1,30 @@
 ---
 layout: case
-title: "Visual Evidence & Multimodal Evaluation"
+title: "Image-Based Task Review & Response Correction"
 category: "Multimodal evaluation"
-summary: "Use an original chart to separate correct extraction from an unsupported causal explanation."
+summary: "Reviewed image-based tasks for validity and capability, checked visual evidence, and corrected responses while explaining the changes."
 number: "05"
 image: "/assets/image-understanding.svg"
 image_alt: "Image understanding: Extract the values; Check the calculation; Limit the conclusion."
 ---
 
-> **Synthetic demonstration.** All scenarios, model responses, data, and evaluation decisions on this page are illustrative. No client material or production results are reproduced.
+## My role
 
-## Evaluation focus
+My image-based evaluation work involved more than reading a chart. Tasks included reviewing whether an image-and-prompt pair could be evaluated, classifying the kind of image or capability involved, checking the response, and rewriting it when needed.
 
-Multimodal evaluation involves reading visual evidence accurately, checking extracted values, and assessing whether the explanation stays within what the image supports.
+### What the task involved
 
-## Judgment illustrated
+- Check that the image and prompt provided a valid, answerable task.
+- Identify the relevant capability, such as reading text, interpreting a chart or document, or reasoning about a diagram.
+- Make limited prompt repairs where appropriate while preserving the intended task.
+- Correct the response, identify the quality problems fixed, and explain the revision.
+- Assess task difficulty using the instructions provided for the assignment.
 
-The example separates observation and calculation from causal interpretation. Correctly reading a chart does not justify an unsupported explanation for its pattern.
+The example below illustrates one slice of that workflow: visual extraction, reasoning, and a justified response correction.
 
-## Synthetic example
+## Independent example of the task
 
-The scenario and decisions below were created for this portfolio; they are not a record of a client assignment.
+> **Real work context; synthetic demonstration.** The role description summarizes my evaluation work. The brief, responses, visuals, and judgments below were independently created to illustrate this type of task. They are not original assignments, client materials, proprietary criteria, or measured production results.
 
 ![Image understanding workflow](../assets/image-understanding.svg)
 
@@ -33,6 +37,10 @@ Can an assistant read a chart accurately without claiming more than the image sh
 ![Fictional workshop registrations: Drawing 18, Photography 12, Ceramics 9.](../assets/workshop-chart.svg)
 
 The chart and its values were created specifically for this demonstration. They do not describe an actual organization, audience, or outcome.
+
+## Task intake and classification
+
+For this synthetic task, the chart is legible and supports identifying and comparing values. I would classify it as chart interpretation with numerical comparison. The question about why registrations differ is answerable only as a statement about missing evidence; it does not justify inventing a cause. No prompt repair is needed because that limitation can be explained directly. The task combines straightforward extraction and subtraction with a check on unsupported inference; no client difficulty label is reproduced.
 
 ## Prompt
 
@@ -54,6 +62,10 @@ The chart and its values were created specifically for this demonstration. They 
 ## Revised answer
 
 > Drawing has the most registrations, with 18—9 more than Ceramics, which has 9. The chart does not explain the difference; we would need additional information to identify a reason.
+
+## Correction rationale
+
+Keep the correct values and subtraction. Remove the invented claims about price and beginner accessibility, and state the evidence limit. The correction changes the unsupported interpretation while preserving the user’s intended comparison.
 
 ## What this demonstrates
 
